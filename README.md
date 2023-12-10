@@ -84,7 +84,7 @@ public class Test {
 //it will not give any error because is present in java.lang packages
 
 ```
-2] default packages ie. curent working in same directory
+- 2] default packages ie. curent working in same directory
 ![image](https://github.com/16pravinkumar/JAVA_2024/assets/94048576/299da910-5600-45bc-9049-e39b254eeffe)
 ![image](https://github.com/16pravinkumar/JAVA_2024/assets/94048576/0b121109-7027-41a8-b9cd-52cb676bfcce)
 
@@ -101,8 +101,8 @@ How to write a package and how to run ?
 
 
  # Important points about package Statement
- 1] inside a java file there is atmost one package is required.
- 2] In a java file name there should be package at the top otherwise you will get an error 
+ - 1] inside a java file there is atmost one package is required.
+ - 2] In a java file name there should be package at the top otherwise you will get an error 
  ```
      eg
       import java.util.ArrayList;
@@ -115,7 +115,7 @@ How to write a package and how to run ?
 
 ```
 o/p ===> error
-3] flow order --> package then import statement then class|interface|enum
+- 3] flow order --> package then import statement then class|interface|enum
 
 
 # class level modifiers: public and default
