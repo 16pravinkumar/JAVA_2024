@@ -1,6 +1,7 @@
 # All about JAVA File Structure
 A java program can contain any number of classes but atmost one class must be declared as public, if threr is no public class then we can use any name for the java program, if there is public class then the name of the class and the name of the file should be same .
-eg.```java
+eg.
+```java
 class A{
 }
 public class B{
@@ -31,6 +32,7 @@ class C {
 class D{
 
 }
+```
 ---------------Compiling and Running ---------------------
  javac .\Second.java
  java A
