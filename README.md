@@ -119,12 +119,30 @@ o/p ===> error
 
 
 # class level modifiers: public and default
-**1] If a class is abstract then we cannot create an OBJECTS else we can**
-**2] If a class is final then it will not allow you to create child class else its allows** 
+1. **Object Creation with Abstract Classes:**
+   - If a class is abstract, we cannot create objects directly. Abstract classes are meant to be subclassed, and object instantiation is deferred to their concrete subclasses.
 
-**For top level classes or parent classes this are the modifier are allowed**
-**public,default,**abstract**,final,strictfp**
-**For low level classes or child classes this are the modifier are allowed**
-**public,default,abstract,final,strictfp,private,protected and static**
+2. **Inheritance Restriction with Final Classes:**
+   - If a class is marked as `final`, it prevents the creation of a child class. The `final` keyword indicates that the class cannot be extended or overridden.
+
+#### Top-Level Classes (or Parent Classes):
+   - For top-level classes, the following modifiers are allowed:
+     - `public`
+     - `default` (package-private)
+     - `abstract`
+     - `final`
+     - `strictfp`
+
+#### Low-Level Classes (or Child Classes):
+   - For low-level classes (classes within other classes or subclasses), the following modifiers are allowed:
+     - `public`
+     - `default` (package-private)
+     - `abstract`
+     - `final`
+     - `strictfp`
+     - `private`
+     - `protected`
+     - `static`
+
 
 
