@@ -109,7 +109,12 @@ o/p ===> error
 
 
 # class level modifiers: public and default
-1] If a class is abstract then we cannot create an OBJECTS else we can 
-**If a class is final then it will not allow you to create child class else its allows** 
+**1] If a class is abstract then we cannot create an OBJECTS else we can **
+**2] If a class is final then it will not allow you to create child class else its allows** 
+
+**For top level classes or parent classes this are the modifier are allowed **
+**public,default,**abstract**,final,strictfp**
+**For low level classes or child classes this are the modifier are allowed **
+**public,default,abstract,final,strictfp,private,protected and static**
 
 
