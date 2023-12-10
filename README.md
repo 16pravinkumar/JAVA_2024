@@ -168,6 +168,8 @@ public class PublicClassExample {
 In this example, `PublicClassExample` is declared as `public`. It can be accessed from any other class, even if it's in a different package.
 
 ![image](https://github.com/16pravinkumar/JAVA_2024/assets/94048576/a0b6fc92-a031-41c8-ad86-46cb62ccb8ec)
+![image](https://github.com/16pravinkumar/JAVA_2024/assets/94048576/2c13ffde-c460-4bc6-9c45-9bd95a8b03b5)
+
 
 
 ### 2. Default (Package-Private) Class:
