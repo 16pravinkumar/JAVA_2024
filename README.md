@@ -84,3 +84,25 @@ it will not give any error because is present in java.lang packages
 here in Test.java we have not imported Execute.java package 
 
 
+#Java source file structure-package statement
+What is package in java?
+A package is the encapsulation mechanism to group related classes and interfaces in a single unit. It helps in avoiding naming conflicts, improves code readability, and provides a mechanism for access control and security is also get improved. 
+
+
+How to write a package and how to run ?
+ ![image](https://github.com/16pravinkumar/JAVA_2024/assets/94048576/7c9856f4-5956-4098-bb3a-5cc796c9af36)
+
+
+ # Important points about package Statement
+ 1] inside a java file there is atmost one package is required.
+ 2] In a java file name there should be package at the top otherwise you will get an error 
+     eg
+      import java.util.ArrayList;
+      package com.Import_Statement_Introduction;
+      public class Test {
+          public static void main(String[] args) {
+          System.out.println("Had");
+          }
+      }
+o/p ===> error
+3] flow order --> package then import statement then class|interface|enum
