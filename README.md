@@ -106,3 +106,10 @@ How to write a package and how to run ?
       }
 o/p ===> error
 3] flow order --> package then import statement then class|interface|enum
+
+
+# class level modifiers: public and default
+1] If a class is abstract then we cannot create an OBJECTS else we can 
+**If a class is final then it will not allow you to create child class else its allows** 
+
+
