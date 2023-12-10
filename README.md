@@ -144,5 +144,45 @@ o/p ===> error
      - `protected`
      - `static`
 
+# Java Class Modifiers and Visibility
+
+In Java, class-level modifiers dictate the visibility and accessibility of classes. The two primary class-level modifiers are `public` and default (package-private). Here are examples for both:
+
+### 1. Public Class
+
+When a class is declared as `public`, it indicates that the class is accessible from any other class, irrespective of the package it belongs to.
+
+**Example:**
+
+```java
+// File: com/example/myproject/PublicClassExample.java
+
+package com.example.myproject;
+
+public class PublicClassExample {
+    public static void main(String[] args) {
+        System.out.println("This is a public class.");
+    }
+}
+```
+In this example, `PublicClassExample` is declared as `public`. It can be accessed from any other class, even if it's in a different package.
+### 2. Default (Package-Private) Class:
+When no access modifier is specified (i.e., no public, private, or protected), the class has default (package-private) visibility. This means it is accessible only within the same package.
+
+**Example:**
+
+```java
+Copy code
+// File: com/example/myproject/DefaultClassExample.java
+
+package com.example.myproject;
+
+class DefaultClassExample {
+    public static void main(String[] args) {
+        System.out.println("This is a default class.");
+    }
+}
+```
+In this example, `DefaultClassExample` has default visibility because it lacks the `public` modifier. It is accessible only within the same package (`com.example.myproject`).
 
 
