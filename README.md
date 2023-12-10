@@ -54,7 +54,9 @@ if you are inside a package then execute in the below img terminal way.
 
 
  # Import Statement Introduction 
- biggest advantages of using import is that we are not writing fully qualified name ie java.util.ArrayList a = new java.util.ArrayList() length of the code is reduced; 
+ biggest advantages of using import is that we are not writing fully qualified name ie 
+ ```java.util.ArrayList a = new java.util.ArrayList() length of the code is reduced;
+```
  ```
       package Import_Statement_Introduction;
       public class Test {
