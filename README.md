@@ -166,6 +166,10 @@ public class PublicClassExample {
 }
 ```
 In this example, `PublicClassExample` is declared as `public`. It can be accessed from any other class, even if it's in a different package.
+
+![image](https://github.com/16pravinkumar/JAVA_2024/assets/94048576/a0b6fc92-a031-41c8-ad86-46cb62ccb8ec)
+
+
 ### 2. Default (Package-Private) Class:
 When no access modifier is specified (i.e., no public, private, or protected), the class has default (package-private) visibility. This means it is accessible only within the same package.
 
